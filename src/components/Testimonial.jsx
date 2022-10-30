@@ -1,7 +1,7 @@
-import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
+import Image from "next/image";
 
 import "swiper/css";
 const Testimonial = () => {
@@ -35,31 +35,33 @@ const Testimonial = () => {
         style={{ padding: "0rem 2rem" }}
       >
         <SwiperSlide>
-          <div className="py-10">
+          <div className="">
             <div className="testimonial-slide">
-              <img
+              <Image
                 src="/images/avatar-anisha.png"
                 width={70}
                 height={70}
                 className="-mt-9"
+                alt="anisha"
               />
               <h3 className="text-sm font-semibold">Anisha Li</h3>
               <p className="body-text text-center">
-                "Manage has supercharged our team’s workflow. The ability to
+                &quot;Manage has supercharged our team’s workflow. The ability to
                 maintain visibility on larger milestones at all times keeps
-                everyone motivated"
+                everyone motivated&quot;
               </p>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="py-10">
+          <div className="">
             <div className="testimonial-slide">
-              <img
+              <Image
                 src="/images/avatar-ali.png"
                 width={70}
                 height={70}
                 className="-mt-9"
+                alt="ali"
               />
               <h3 className="text-sm font-semibold">Ali Bravo</h3>
               <p className="body-text text-center">
@@ -71,13 +73,14 @@ const Testimonial = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="py-10">
+          <div className="">
             <div className="testimonial-slide">
-              <img
+              <Image
                 src="/images/avatar-richard.png"
                 width={70}
                 height={70}
                 className="-mt-9"
+                alt="richard"
               />
               <h3 className="text-sm font-semibold">Richard Watts</h3>
               <p className="body-text text-center">
@@ -89,13 +92,14 @@ const Testimonial = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="py-10">
+          <div className="">
             <div className="testimonial-slide">
-              <img
+              <Image
                 src="/images/avatar-shanai.png"
                 width={70}
                 height={70}
                 className="-mt-9"
+                alt="shanai"
               />
               <h3 className="text-sm font-semibold"> Shanai Gough</h3>
               <p className="body-text text-center">
@@ -108,7 +112,7 @@ const Testimonial = () => {
         </SwiperSlide>
       </Swiper>
       <div className="max-w-full container text-center">
-        <button className="button-primary">Get Started</button>
+        <button className="button-primary mt-10">Get Started</button>
       </div>
     </section>
   );

@@ -1,5 +1,4 @@
-import React from "react";
-
+import Image from "next/image";
 const Footer = () => {
   return (
     <footer className=" fluid w-full  h-full flex flex-col justfiy-center gap-12 items-center bg-dark-blue py-12 md:flex-row-reverse md:items-start relative ">
@@ -48,28 +47,43 @@ const Footer = () => {
       <div className="flex w-full flex-col gap-8 md:gap-0 justify-between min-h-full items-center md:flex-col-reverse md:h-36 md:justify-between md:items-center">
         <div className="flex gap-6">
           {/* Social Icons */}
-          <img
+          <Image
             src="/images/icon-facebook.svg"
-            className="w-8 h-8 object-contain"
+            width={32}
+            height={32}
+            layout="responsive"
+            alt="facebook"
           />
-          <img
+          <Image
             src="/images/icon-instagram.svg"
-            className="w-8 h-8 object-contain"
+            width={32}
+            height={32}
+            layout="responsive"
+            alt="instagram"
           />
-          <img
+          <Image
             src="/images/icon-pinterest.svg"
-            className="w-8 h-8 object-contain"
+            width={32}
+            height={32}
+            layout="responsive"
+            alt="pinterest"
           />
-          <img
+          <Image
             src="/images/icon-twitter.svg"
-            className="w-8 h-8 object-contain"
+            width={32}
+            height={32}
+            layout="responsive"
+            alt="twitter"
           />
-          <img
+          <Image
             src="/images/icon-youtube.svg"
-            className="w-8 h-8 object-contain"
+            width={32}
+            height={32}
+            layout="responsive"
+            alt="youtube"
           />
         </div>
-        <img src="/images/logo-white.svg" alt="" className="w-64" />
+        <Image src="/images/logo-white.svg" alt="Manage" width={256} height={40} objectFit="contain" />
       </div>
 
       <span className="text-white md:absolute md:bottom-0 md:pb-12">

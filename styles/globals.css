@@ -39,7 +39,7 @@
     @apply mr-2 px-5 py-2 bg-primary-red rounded-full text-white lg:mr-8;
   }
   .testimonial-slide {
-    @apply pb-11 px-8 w-full bg-light-gray text-center flex justify-center items-center flex-col gap-6;
+    @apply py-10 px-8 w-full bg-light-gray text-center flex justify-center items-center flex-col gap-6;
   }
   .nav-item {
     @apply text-sm font-medium  text-left text-light-gray flex flex-col gap-6;
