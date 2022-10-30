@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
-import Banner from "../src/components/Banner";
-import Footer from "../src/Components/Footer";
-import Header from "../src/Components/Header";
-import Testimonial from "../src/components/Testimonial";
-import CTA from "../src/components/CTA";
-import Features from "../src/components/Features";
+import Banner from "../components/Banner";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
+import Testimonial from "../components/Testimonial";
+import CTA from "../components/CTA";
+import Features from "../components/Features";
 
 export default function Home() {
   return (
