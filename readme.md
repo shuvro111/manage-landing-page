@@ -15,7 +15,9 @@ This is a simple app landing page designed with Next JS & Tailwind CSS
 &nbsp; ✅ Next JS<br />
 &nbsp; ✅ Tailwind CSS<br /><br />
 
-#### This design is provided by [Frontend Mentor](https://frontendmentor.io): [View Design](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5)
+#### This design is provided by [Frontend Mentor](https://frontendmentor.io) <br/>
+
+👉 [View Design](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5)
 
 #
 
